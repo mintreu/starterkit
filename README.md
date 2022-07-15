@@ -1,2 +1,3 @@
-# starterkit
-laravel project starter kit
+# StarterKit
+Web Project Starter Kit
+Include All Required Dependecies
