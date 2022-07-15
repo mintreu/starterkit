@@ -1,4 +1,4 @@
-# storefront
+# Frontend
 
 ## Build Setup
 
