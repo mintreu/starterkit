@@ -1,0 +1,30 @@
+[
+  {
+    "name": "dashboard",
+    "path": "/dashboard",
+    "component": "C:\\\\xampp\\\\htdocs\\\\Projects\\\\Frontend\\\\pages\\\\dashboard.vue",
+    "chunkName": "pages/dashboard",
+    "_name": "_7c1e4f9c"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "C:\\\\xampp\\\\htdocs\\\\Projects\\\\Frontend\\\\pages\\\\login.vue",
+    "chunkName": "pages/login",
+    "_name": "_94ca44f2"
+  },
+  {
+    "name": "register",
+    "path": "/register",
+    "component": "C:\\\\xampp\\\\htdocs\\\\Projects\\\\Frontend\\\\pages\\\\register.vue",
+    "chunkName": "pages/register",
+    "_name": "_4f2a79f5"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\xampp\\\\htdocs\\\\Projects\\\\Frontend\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_28198b20"
+  }
+]

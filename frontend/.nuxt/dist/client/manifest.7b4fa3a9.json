@@ -1,0 +1,11 @@
+{
+  "name": "--slogan--",
+  "short_name": "--short--name--",
+  "description": "--description--",
+  "icons": [],
+  "start_url": "/?standalone=true",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#121212",
+  "lang": "en"
+}
