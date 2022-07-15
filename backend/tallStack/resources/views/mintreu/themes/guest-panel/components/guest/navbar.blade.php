@@ -1,6 +1,4 @@
-<?php
-use Illuminate\Routing\Router;
-?>
+
 
     <nav x-data="{ open: false }" class="bg-white shadow">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -26,29 +24,29 @@ Heroicon name: outline/x" x-state:on="Menu open" x-state:off="Menu closed" class
 {{--                        <img class="block lg:hidden h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="Workflow">--}}
 {{--                        <img class="hidden lg:block h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-logo-indigo-600-mark-gray-800-text.svg" alt="Workflow">--}}
 
-                        <a href="{{route('frontpage')}}"><h1 class="text-lg text-red-500 font-bold">Starterkit</h1></a>
+                        <a href="{{ route('frontpage')}}"><h1 class="text-lg text-red-500 font-bold">Starterkit</h1></a>
 
                     </div>
                     <div class="hidden md:ml-6 md:flex md:space-x-8">
                         <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
-                        <a href="{{ route('dashboard')}}" class="{{ Route::is('dashboard') ? 'border-indigo-500 text-gray-900' : 'border-transparent text-gray-500' }}  inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                        <a href="{{ route('dashboard')}}" class="{{ \App\Helpers\Template\BladeHelper::activeUrl('dashboard','border-indigo-500 text-gray-900','border-transparent text-gray-500')}}  inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                             Dashboard
                         </a>
-                        <a href="{{ route('register')}}" class=" {{ Route::is('register') ? 'border-indigo-500 text-gray-900' : 'border-transparent text-gray-500' }}  text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                        <a href="{{ route('register')}}" class=" {{ \App\Helpers\Template\BladeHelper::activeUrl('register','border-indigo-500 text-gray-900','border-transparent text-gray-500') }}  text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                             Register
                         </a>
-                        <a href="{{ route('login')}}" class=" {{ Route::is('login') ? 'border-indigo-500 text-gray-900' : 'border-transparent text-gray-500' }} text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                        <a href="{{ route('login')}}" class=" {{ \App\Helpers\Template\BladeHelper::activeUrl('login','border-indigo-500 text-gray-900','border-transparent text-gray-500') }} text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                             Login
                         </a>
-                        <a href="{{ route('forget')}}" class=" {{ Route::is('forget') ? 'border-indigo-500 text-gray-900' : 'border-transparent text-gray-500' }} text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                        <a href="{{ route('forget')}}" class=" {{ \App\Helpers\Template\BladeHelper::activeUrl('forget','border-indigo-500 text-gray-900','border-transparent text-gray-500') }} text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                             Forget
                         </a>
 
-                        <a href="{{route('otp-login')}}" class="{{ Route::is('otp-login') ? 'border-indigo-500 text-gray-900' : 'border-transparent text-gray-500' }} text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                        <a href="{{ route('otp-login')}}" class="{{ \App\Helpers\Template\BladeHelper::activeUrl('otp-login','border-indigo-500 text-gray-900','border-transparent text-gray-500') }} text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                             otp login
                         </a>
 
-                        <a href="{{route('view-cards')}}" class="{{ Route::is('view-cards') ? 'border-indigo-500 text-gray-900' : 'border-transparent text-gray-500' }} text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                        <a href="{{ route('view-cards')}}" class="{{ \App\Helpers\Template\BladeHelper::activeUrl('view-cards','border-indigo-500 text-gray-900','border-transparent text-gray-500') }} text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                             Cards
                         </a>
 
