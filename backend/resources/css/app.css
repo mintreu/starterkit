@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&family=Archivo:wght@100&family=Arima:wght@100&family=Azeret+Mono:wght@100&family=Ballet:opsz@16..72&family=Baloo+Bhaijaan+2&family=Baloo+Bhaina+2&family=Big+Shoulders+Display:wght@100&family=Big+Shoulders+Inline+Display:wght@100&family=Big+Shoulders+Inline+Text:wght@100&family=Comfortaa:wght@300&family=Dancing+Script&family=Dosis:wght@200&family=Edu+QLD+Beginner&family=Edu+SA+Beginner&family=Edu+VIC+WA+NT+Beginner&family=El+Messiri&family=Encode+Sans+Condensed:wght@100&family=Encode+Sans+SC:wght@100&family=Encode+Sans+Semi+Condensed:wght@100&family=Encode+Sans:wght@100&family=Epilogue:wght@100&family=Expletus+Sans&family=Finger+Paint&family=Fira+Code:wght@300&family=Genos:wght@100&family=Gluten:wght@100&family=Grandstander:wght@100&family=Imbue:opsz,wght@10..100,100&family=Jura:wght@300&family=Kufam&family=League+Spartan:wght@100&family=Lemonada:wght@300&family=Lexend+Giga:wght@100&family=Lexend+Peta:wght@100&family=Lexend+Zetta:wght@100&family=Libre+Barcode+128+Text&family=Libre+Barcode+39&family=Libre+Barcode+39+Text&family=M+PLUS+1+Code:wght@100&family=M+PLUS+2:wght@100&family=M+PLUS+Code+Latin:wght@100&family=Mohave:wght@300&family=Montagu+Slab:opsz,wght@16..144,100&family=Montserrat:wght@100&family=Murecho:wght@100&family=Noto+Emoji&family=Noto+Sans+Bengali:wght@100&family=Noto+Serif+Bengali:wght@200&family=Noto+Serif+Devanagari:wght@100;200&family=Plus+Jakarta+Sans:wght@200&family=Press+Start+2P&family=Raleway:wght@100&family=Red+Hat+Mono:wght@300&family=Roboto+Flex:opsz,wght@8..144,200&family=Roboto+Mono:wght@100&family=Roboto:wght@100&family=Rosario:wght@300&family=Sansita+Swashed:wght@300&family=Source+Code+Pro:wght@200&family=Spline+Sans:wght@300&family=Stick+No+Bills:wght@200&family=Style+Script&family=Stylish&family=Tourney:wght@100&family=Truculenta:opsz,wght@12..72,100&family=Urbanist:wght@100&family=Varta:wght@300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*@import "tailwin_front.css";*/
+
+@layer components {
+    .button {
+        @apply px-3 py-2 text-sm font-medium rounded-md text-white shadow-sm lg:px-8;
+    }
+    .button--action {
+        @apply bg-indigo-600 hover:bg-indigo-500
+    }
+    .button--success {
+        @apply bg-teal-600 hover:bg-teal-500;
+    }
+    .button--warning {
+        @apply bg-pink-600 hover:bg-pink-500;
+    }
+}
