@@ -2,7 +2,7 @@
 
 namespace App\Helpers\Template;
 
-t;
+
 
 use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Route;
